@@ -1,0 +1,19 @@
+MonoAI Audit Summary
+====================
+
+Model Safety Score: 15/100
+Status: Not ready
+Recommended action: Do not use for clinical workflows. Complete remediation and rerun audit.
+
+Project root: C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects
+Dataset root: C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\data
+Model path: C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\models
+
+Dependencies: 7
+Model files: 0
+Dataset files: 0
+MONAI transforms: 55
+Issues: 35
+
+ERROR: 2
+INFO: 33

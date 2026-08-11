@@ -1,0 +1,22 @@
+{
+  "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monoai_demo_projects\\01_healthy_project\\bundle",
+  "found": true,
+  "has_metadata": true,
+  "has_configs": true,
+  "has_docs": true,
+  "has_models": true,
+  "metadata_files": [
+    "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monoai_demo_projects\\01_healthy_project\\bundle\\configs\\metadata.json"
+  ],
+  "config_files": [
+    "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monoai_demo_projects\\01_healthy_project\\bundle\\configs\\inference.json",
+    "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monoai_demo_projects\\01_healthy_project\\bundle\\configs\\metadata.json"
+  ],
+  "doc_files": [
+    "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monoai_demo_projects\\01_healthy_project\\bundle\\docs\\README.md",
+    "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monoai_demo_projects\\01_healthy_project\\bundle\\docs\\README.md"
+  ],
+  "model_files": [
+    "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monoai_demo_projects\\01_healthy_project\\bundle\\models\\model.onnx"
+  ]
+}

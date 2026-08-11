@@ -1,0 +1,8 @@
+name,version,source
+monai,1.5.2,python_environment
+torch,2.10.0,python_environment
+numpy,2.2.6,python_environment
+nibabel,5.4.2,python_environment
+scipy,1.15.3,python_environment
+pydicom,3.0.1,python_environment
+matplotlib,3.10.8,python_environment

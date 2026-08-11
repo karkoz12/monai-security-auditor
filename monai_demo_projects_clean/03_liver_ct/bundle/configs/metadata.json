@@ -1,0 +1,5 @@
+{
+  "name": "liver_ct",
+  "task": "segmentation",
+  "intended_use": "research"
+}

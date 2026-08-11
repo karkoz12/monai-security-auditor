@@ -1,0 +1,15 @@
+MONAI Cybersecurity Summary
+====================
+
+Project root: C:\Users\kozakka\monai_test\audit_cyber_monoai\monai_demo_projects_clean
+Dataset root: C:\Users\kozakka\monai_test\audit_cyber_monoai\monai_demo_projects_clean
+Model path: C:\Users\kozakka\monai_test\audit_cyber_monoai\monai_demo_projects_clean\01_brain_segmentation\models\model.safetensors
+
+Dependencies: 7
+Model files: 1
+Dataset files: 121
+MONAI transforms: 0
+Issues: 74
+
+INFO: 1
+WARNING: 73

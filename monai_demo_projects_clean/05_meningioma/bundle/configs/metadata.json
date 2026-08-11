@@ -1,0 +1,5 @@
+{
+  "name": "meningioma",
+  "task": "segmentation",
+  "intended_use": "research"
+}

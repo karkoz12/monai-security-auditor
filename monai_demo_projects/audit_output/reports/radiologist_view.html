@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset='utf-8'>
+<title>MonoAI Radiologist View</title>
+<style>
+        body { font-family: Arial, sans-serif; margin: 32px; color: #111827; background: #f9fafb; }
+        .card { background: white; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+        .score { font-size: 52px; font-weight: 800; color: #0f766e; }
+        .status { font-size: 22px; font-weight: 700; }
+        table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+        th, td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; font-size: 13px; vertical-align: top; }
+        th { background: #111827; color: white; }
+        .PASS { color: #047857; font-weight: 700; }
+        .WARNING { color: #b45309; font-weight: 700; }
+        .FAIL, .ERROR, .CRITICAL { color: #b91c1c; font-weight: 700; }
+        code { background: #f3f4f6; padding: 2px 4px; border-radius: 4px; }
+        </style>
+</head><body>
+<h1>AI Model Safety Check for Medical Imaging</h1>
+<div class='card'>
+<div class='score'>15/100</div>
+<div class='status'>Not ready</div>
+<p><b>Recommended action:</b> Do not use for clinical workflows. Complete remediation and rerun audit.</p>
+<h3>Main issues</h3><ol>
+<li>Model file does not exist.</li>
+<li>Missing dataset provenance</li>
+<li>Preprocessing pipeline needs reproducibility review</li>
+<li>Preprocessing pipeline needs reproducibility review</li>
+<li>Preprocessing pipeline needs reproducibility review</li>
+</ol></div>
+<div class='card'><h2>Clinical Checklist</h2><table>
+<tr><th>Area</th><th>Item</th><th>Status</th><th>Evidence</th><th>Recommendation</th></tr>
+<tr><td>Model identity</td><td>Model artifact hash available</td><td class='WARNING'>WARNING</td><td>0 model file(s) scanned.</td><td>Provide verified model artifacts and preserve SHA256 hashes.</td></tr>
+<tr><td>Dataset provenance</td><td>Dataset folder available and scanned</td><td class='WARNING'>WARNING</td><td>0 dataset file(s) scanned.</td><td>Provide dataset root and provenance documentation.</td></tr>
+<tr><td>Dataset integrity</td><td>No critical dataset errors</td><td class='FAIL'>FAIL</td><td>1 critical dataset issue(s).</td><td>Fix corrupted files, NaN/Inf values, and image-mask mismatches.</td></tr>
+<tr><td>MONAI Bundle</td><td>Bundle metadata and documentation available</td><td class='PASS'>PASS</td><td>Bundle found: True</td><td>Use MONAI Bundle-style metadata, configs, documentation, and model artifacts.</td></tr>
+<tr><td>Pipeline reproducibility</td><td>MONAI transforms detected and reviewed</td><td class='PASS'>PASS</td><td>55 transform(s) detected.</td><td>Document preprocessing, spacing, orientation, normalization, and random seeds.</td></tr>
+<tr><td>Model loading safety</td><td>No pickle-based model risk flagged</td><td class='PASS'>PASS</td><td>0 pickle-format warning(s).</td><td>Avoid untrusted PyTorch pickle checkpoints; prefer verified artifacts.</td></tr>
+</table></div></body></html>

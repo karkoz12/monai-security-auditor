@@ -1,0 +1,5 @@
+{
+  "name": "clinical",
+  "task": "segmentation",
+  "intended_use": "research"
+}

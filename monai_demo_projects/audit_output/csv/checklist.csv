@@ -1,0 +1,7 @@
+area,item,status,evidence,recommendation
+Model identity,Model artifact hash available,WARNING,0 model file(s) scanned.,Provide verified model artifacts and preserve SHA256 hashes.
+Dataset provenance,Dataset folder available and scanned,WARNING,0 dataset file(s) scanned.,Provide dataset root and provenance documentation.
+Dataset integrity,No critical dataset errors,FAIL,1 critical dataset issue(s).,"Fix corrupted files, NaN/Inf values, and image-mask mismatches."
+MONAI Bundle,Bundle metadata and documentation available,PASS,Bundle found: True,"Use MONAI Bundle-style metadata, configs, documentation, and model artifacts."
+Pipeline reproducibility,MONAI transforms detected and reviewed,PASS,55 transform(s) detected.,"Document preprocessing, spacing, orientation, normalization, and random seeds."
+Model loading safety,No pickle-based model risk flagged,PASS,0 pickle-format warning(s).,Avoid untrusted PyTorch pickle checkpoints; prefer verified artifacts.

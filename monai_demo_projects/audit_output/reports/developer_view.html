@@ -1,0 +1,66 @@
+<!doctype html><html><head><meta charset='utf-8'>
+<title>MonoAI Developer View</title>
+<style>
+        body { font-family: Arial, sans-serif; margin: 32px; color: #111827; background: #f9fafb; }
+        .card { background: white; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+        .score { font-size: 52px; font-weight: 800; color: #0f766e; }
+        .status { font-size: 22px; font-weight: 700; }
+        table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+        th, td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; font-size: 13px; vertical-align: top; }
+        th { background: #111827; color: white; }
+        .PASS { color: #047857; font-weight: 700; }
+        .WARNING { color: #b45309; font-weight: 700; }
+        .FAIL, .ERROR, .CRITICAL { color: #b91c1c; font-weight: 700; }
+        code { background: #f3f4f6; padding: 2px 4px; border-radius: 4px; }
+        </style>
+</head><body>
+<h1>MonoAI Developer View</h1>
+<div class='card'>
+<p>Project root: <code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects</code></p>
+<p>Dataset root: <code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\data</code></p>
+<p>Model path: <code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\models</code></p>
+<p>Dependencies: 7 | Model files: 0 | Dataset files: 0 | Transforms: 55</p>
+</div>
+<div class='card'><h2>Issues</h2><table>
+<tr><th>Level</th><th>Scanner</th><th>Category</th><th>Path</th><th>Message</th><th>Recommendation</th></tr>
+<tr><td class='ERROR'>ERROR</td><td>model_file_scanner</td><td>missing_model_file</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\models</code></td><td>Model file does not exist.</td><td></td></tr>
+<tr><td class='ERROR'>ERROR</td><td>dataset_metadata_scanner</td><td>missing_dataset_root</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\data</code></td><td>Dataset root does not exist.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\01_healthy_project\...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\01_healthy_project\...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\01_healthy_project\...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\02_missing_model\tr...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\02_missing_model\tr...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\02_missing_model\tr...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\03_missing_bundle\t...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\03_missing_bundle\t...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\03_missing_bundle\t...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\04_corrupted_datase...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\04_corrupted_datase...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\04_corrupted_datase...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\05_wrong_labels\tra...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\05_wrong_labels\tra...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\05_wrong_labels\tra...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\06_untrusted_pt_mod...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\06_untrusted_pt_mod...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\06_untrusted_pt_mod...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\07_incomplete_metad...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\07_incomplete_metad...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\07_incomplete_metad...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\08_research_prototy...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\08_research_prototy...</code></td><td>RandAffined: Random transform affects reproducibility. Set deterministic seed for audits and regulated experiments.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\08_research_prototy...</code></td><td>RandGaussianNoised: Random transform affects reproducibility. Set deterministic seed for audits and regulated experiments.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\09_clinical_candida...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\09_clinical_candida...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\09_clinical_candida...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\10_bad_mask_values\...</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\10_bad_mask_values\...</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\10_bad_mask_values\...</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\11_nan_image\train....</code></td><td>LoadImaged: Verify file paths are controlled and not user-supplied without validation.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\11_nan_image\train....</code></td><td>Orientationd: Orientation changes coordinate convention. Confirm image and label transforms are synchronized.</td><td></td></tr>
+<tr><td class='INFO'>INFO</td><td>monai_transform_scanner</td><td>transform_review</td><td><code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\11_nan_image\train....</code></td><td>Spacingd: Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels.</td><td></td></tr>
+</table></div>
+<div class='card'><h2>MONAI Bundle</h2>
+<p>Found: <b>True</b></p>
+<p>Path: <code>C:\Users\kozakka\monai_test\audit_cyber_monoai\monoai_demo_projects\01_healthy_project\bundle</code></p>
+<p>Metadata: True | Configs: True | Docs: True | Models: True</p>
+</div></body></html>

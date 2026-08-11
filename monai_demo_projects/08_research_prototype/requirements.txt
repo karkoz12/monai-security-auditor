@@ -1,0 +1,5 @@
+monai
+torch
+numpy
+nibabel
+git+https://example.com/untrusted/demo-package.git

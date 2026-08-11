@@ -1,0 +1,9 @@
+[
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\models\\model.safetensors",
+    "size_bytes": 4,
+    "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+    "extension": ".safetensors",
+    "risk_notes": []
+  }
+]

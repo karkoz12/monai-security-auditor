@@ -1,0 +1,2324 @@
+{
+  "project_root": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean",
+  "dataset_root": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean",
+  "model_path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\models\\model.safetensors",
+  "environment": {
+    "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "issues": [
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\requirements.txt",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\train.py",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\bundle\\configs\\inference.json",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\bundle\\docs\\README.md",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\bundle\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\data\\case_000_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\data\\case_001_image_mask.nii.gz",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "recommendation": ""
+    },
+    {
+      "level": "WARNING",
+      "scanner": "dataset_metadata_scanner",
+      "category": "duplicate_dataset_file",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\models\\model.safetensors",
+      "message": "Duplicate file content detected. Same as: C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "recommendation": ""
+    },
+    {
+      "level": "INFO",
+      "scanner": "monai_transform_scanner",
+      "category": "no_transforms_found",
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean",
+      "message": "No MONAI dictionary transforms detected in project Python files.",
+      "recommendation": ""
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "monai",
+      "version": "1.5.2",
+      "source": "python_environment"
+    },
+    {
+      "name": "torch",
+      "version": "2.10.0",
+      "source": "python_environment"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6",
+      "source": "python_environment"
+    },
+    {
+      "name": "nibabel",
+      "version": "5.4.2",
+      "source": "python_environment"
+    },
+    {
+      "name": "scipy",
+      "version": "1.15.3",
+      "source": "python_environment"
+    },
+    {
+      "name": "pydicom",
+      "version": "3.0.1",
+      "source": "python_environment"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.8",
+      "source": "python_environment"
+    }
+  ],
+  "model_files": [
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "risk_notes": []
+    }
+  ],
+  "dataset_files": [
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\README.md",
+      "size_bytes": 55,
+      "sha256": "c6e1cdf97c4ef75b977913c129e26899f6048c5f280acc8c7463210ae9fb6af1",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\configs\\metadata.json",
+      "size_bytes": 90,
+      "sha256": "f6c8ee61c0b37976ae20e4786234818d1b136f2a57bce81380103af0822114bb",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image.nii.gz",
+      "size_bytes": 56314,
+      "sha256": "1d80ab9bb52a8c2de881dea6c026ce7812d55a45dbff45410b6b638b41cd7942",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.013574415817856789,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image.nii.gz",
+      "size_bytes": 56274,
+      "sha256": "5275bbd84675e7a872344fc371859b96a182161b85620f6c9f2ded37b2a685ae",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.01587422750890255,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\01_brain_segmentation\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\bundle\\configs\\metadata.json",
+      "size_bytes": 79,
+      "sha256": "8a6c75740d168efbc7edf2f475cc5d517df7b5618e84f21f573a3386edb3d8cf",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\data\\case_000_image.nii.gz",
+      "size_bytes": 56325,
+      "sha256": "bb226d154b90afd9fb26195dba60341cf930cf7ebe97d34acffa186ca963e47f",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.012082410044968128,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\data\\case_001_image.nii.gz",
+      "size_bytes": 56306,
+      "sha256": "aa6045451678ceeeefa757df66118e0092ef27c7c30d1f50b8e177bac4d3c7af",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.007165626157075167,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\02_lung_ct\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\bundle\\configs\\metadata.json",
+      "size_bytes": 80,
+      "sha256": "de7577039edd838a6651ad9bf985a8dde187f0574e4620f7a8299ba447356f06",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\data\\case_000_image.nii.gz",
+      "size_bytes": 56245,
+      "sha256": "226bfaeeadf8881f19b7efe5185c41bf17b2f722df373a7504b7b600cfa971c1",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0031470872927457094,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\data\\case_001_image.nii.gz",
+      "size_bytes": 56281,
+      "sha256": "db4199f7bc678975a0c9c50357e611ccb9899eba6704723fe014b93d058caad5",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.011883405968546867,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\03_liver_ct\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\bundle\\configs\\metadata.json",
+      "size_bytes": 78,
+      "sha256": "412132c601334e40f5c65168204dbe2167b041b9b78e24a258b8d53c39b0fa7d",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\data\\case_000_image.nii.gz",
+      "size_bytes": 56309,
+      "sha256": "493f882cbc891b6a2c4ce0cb626a79b4becf7301a0d478b741e8d9f4c6bb295b",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.011031894013285637,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\data\\case_001_image.nii.gz",
+      "size_bytes": 56246,
+      "sha256": "f435b54b50d8d6638d808a7fb44a383ff4c3b6744c4e9a6be86b25a7deea53ad",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.012301411479711533,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\04_glioma\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\bundle\\configs\\metadata.json",
+      "size_bytes": 82,
+      "sha256": "b2930276a405d8ef6e5e0568bb3e73cbf126b50d52a98e6f1e5b7bd9c1dd9188",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\data\\case_000_image.nii.gz",
+      "size_bytes": 56290,
+      "sha256": "fce4a3ea5878d5b9928aa426a23e902780663d64014a7c69b55cbba051138f65",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.011626980267465115,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\data\\case_001_image.nii.gz",
+      "size_bytes": 56252,
+      "sha256": "7e00e8b1dc0679e38b81a581b733c7865a7ff1917e2cfe3ab7c269f57f918182",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.012443648651242256,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\05_meningioma\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\bundle\\configs\\metadata.json",
+      "size_bytes": 81,
+      "sha256": "c2b427642ed28299571eb97b6af181a9b45f73967964c7c292c63062462876f1",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\data\\case_000_image.nii.gz",
+      "size_bytes": 56243,
+      "sha256": "eda8cc9e0a7577922a85a110693c2dd1f65f1de73ec64feb3d06a82cabf23e05",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.012621867470443249,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\data\\case_001_image.nii.gz",
+      "size_bytes": 56245,
+      "sha256": "c67dd39bd9e4ad8ee51ed197bb07fc36232a057348b72cbda670338f69f18031",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.006596564780920744,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\06_pituitary\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\bundle\\configs\\metadata.json",
+      "size_bytes": 82,
+      "sha256": "b6e225972592a01bd9d872948bbf1060ab6da3dcadc205235276bbc0f418b4e3",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\data\\case_000_image.nii.gz",
+      "size_bytes": 56251,
+      "sha256": "a437eee7d2ffd64040aca78d61fd69ae8c7dc25d01245efc33660bed8764f65d",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.012591131962835789,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\data\\case_001_image.nii.gz",
+      "size_bytes": 56305,
+      "sha256": "1b810b111abd06123cec3b2577c0df506f0ce7eb7963dac69a0d638f09842b3e",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.011942518875002861,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\07_multiclass\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\bundle\\configs\\metadata.json",
+      "size_bytes": 78,
+      "sha256": "e7f1a8df3817784dc557d1c942eaab5e7a9dbf730f902f5c0d9358d9b1ed8fd1",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\data\\case_000_image.nii.gz",
+      "size_bytes": 56273,
+      "sha256": "574a514ea6c7d37c27f52014189b368795839b5889ded2c13d67c3067285c28a",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.009089997969567776,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\data\\case_001_image.nii.gz",
+      "size_bytes": 56308,
+      "sha256": "766e49f2f51a91ca54a555c4744096f45a24f1c407e1a25456a7031597238192",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.007441886700689793,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\08_bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\bundle\\configs\\metadata.json",
+      "size_bytes": 80,
+      "sha256": "d3a1c65d27f5bef889292461e5a71be7b9aa1262676c7f907dbf123dfbd9d95e",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\data\\case_000_image.nii.gz",
+      "size_bytes": 56255,
+      "sha256": "8c8bde100c6c4c5126342ff704181454e10ce69992246150bde821040755caa0",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.011670447885990143,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\data\\case_001_image.nii.gz",
+      "size_bytes": 56266,
+      "sha256": "315b52f4ca27b5c580b7a478ad2f1ec042c36367ed1e0773020d0376eed1a2bc",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.009946398437023163,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\09_research\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\requirements.txt",
+      "size_bytes": 54,
+      "sha256": "ade4f8007901e3efb2c20f1f7d05dc8a58f46968a5f87fdec8fcb6407beac66c",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\train.py",
+      "size_bytes": 106,
+      "sha256": "4fed5c73e1776a8271af11bd82df15841cad373c17826f295b18a92dd64c7bcd",
+      "extension": ".py",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\bundle\\configs\\inference.json",
+      "size_bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\bundle\\configs\\metadata.json",
+      "size_bytes": 80,
+      "sha256": "7ebf59db18d7efa67162afa55ab2d2f7150c0df343acc127d48dd16718ba5f1d",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\bundle\\docs\\README.md",
+      "size_bytes": 9,
+      "sha256": "6711975b8c8f15fadf1a347208c59197f59eebac1fb2c267024c064e8a221961",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\bundle\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\data\\case_000_image.nii.gz",
+      "size_bytes": 56230,
+      "sha256": "326dcb91d77544c483b9b5e5be6e5dc0bb047ed515a2400f0c5897e4ce3587dc",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.01380614098161459,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\data\\case_000_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "211cf4f88dfcc16d4aec98b8a9dfe4d57176e7c589ccd9c04160bcf11b5349fa",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\data\\case_001_image.nii.gz",
+      "size_bytes": 56330,
+      "sha256": "a7b083d2b87a3ce44ba72e65fca8357dc09373847f6397e86a1432e17a4c928b",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.010791603475809097,
+      "max_value": 0.8999999761581421,
+      "unique_values": null,
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\data\\case_001_image_mask.nii.gz",
+      "size_bytes": 238,
+      "sha256": "6d85733a09c80988db3dd8aaedec3371babd9c570577901b0d7471d9c8fa20a9",
+      "extension": ".nii.gz",
+      "shape": [
+        32,
+        32,
+        16
+      ],
+      "dtype": "float32",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unique_values": [
+        0.0,
+        1.0
+      ],
+      "affine_det": -1.5
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\10_clinical\\models\\model.safetensors",
+      "size_bytes": 4,
+      "sha256": "10a87133a313ecf05f5be2f63a927977b5347ec0578bb5d21fcab2f86695d49c",
+      "extension": ".safetensors",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\dataset_metadata.json",
+      "size_bytes": 50788,
+      "sha256": "b9f3c1b02b869deb99f44642038f923b49480e9eadb9ab06236bdd6e8371dbb3",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\dependencies.json",
+      "size_bytes": 673,
+      "sha256": "ce41d0d561a69a686973da85947c4297afbe9de617c76acead4e00b2496c6cda",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\model_files.json",
+      "size_bytes": 319,
+      "sha256": "13ce5e1152c1db548a19e89a761583598749bd3e376c97d44d0edce43a24dc04",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\monai_security_report.html",
+      "size_bytes": 60658,
+      "sha256": "81a57f1ca83f75f7519f02e78dfee371c4d43d85688c3e49492d69eeba2a705e",
+      "extension": ".html",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\monai_security_report.json",
+      "size_bytes": 91734,
+      "sha256": "4c428ea5562f558958bc4187f30843a9aa483c4ac8cc9360a86d3d1aca75e071",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\monai_security_report.md",
+      "size_bytes": 47545,
+      "sha256": "fce7ac7627eb6b6fa165b98811069d44916a728ebb6026c34f3a01d4babed81b",
+      "extension": ".md",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\monai_security_report.pdf",
+      "size_bytes": 14708,
+      "sha256": "7d8dded111050b29f483534687efae8fbd051a0a8d9ec332ad0f6d5314823bb0",
+      "extension": ".pdf",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\monai_transforms.json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "extension": ".json",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\pip_freeze.txt",
+      "size_bytes": 1338,
+      "sha256": "b25f4aff7bc0e7dd784c94a6c42887a0a8ae21319dd8526f2efcd764adfd4498",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    },
+    {
+      "path": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects_clean\\monai_security_report\\summary.txt",
+      "size_bytes": 463,
+      "sha256": "d14436839941878582aa66f573aef22078db5f60d29f84abfea09897e8f46e04",
+      "extension": ".txt",
+      "shape": null,
+      "dtype": null,
+      "min_value": null,
+      "max_value": null,
+      "unique_values": null,
+      "affine_det": null
+    }
+  ],
+  "transforms": []
+}

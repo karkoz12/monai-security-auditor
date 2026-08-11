@@ -1,0 +1,664 @@
+[
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_dataset_security.py",
+    "line": 267,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_dataset_security.py",
+    "line": 268,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_dataset_security.py",
+    "line": 269,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\01_healthy_project\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\01_healthy_project\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\01_healthy_project\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\01_healthy_project\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\01_healthy_project\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\02_missing_model\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\02_missing_model\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\02_missing_model\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\02_missing_model\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\02_missing_model\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\03_missing_bundle\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\03_missing_bundle\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\03_missing_bundle\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\03_missing_bundle\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\03_missing_bundle\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\04_corrupted_dataset\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\04_corrupted_dataset\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\04_corrupted_dataset\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\04_corrupted_dataset\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\04_corrupted_dataset\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\05_wrong_labels\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\05_wrong_labels\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\05_wrong_labels\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\05_wrong_labels\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\05_wrong_labels\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\06_untrusted_pt_model\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\06_untrusted_pt_model\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\06_untrusted_pt_model\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\06_untrusted_pt_model\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\06_untrusted_pt_model\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\07_incomplete_metadata\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\07_incomplete_metadata\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\07_incomplete_metadata\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\07_incomplete_metadata\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\07_incomplete_metadata\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\08_research_prototype\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\08_research_prototype\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\08_research_prototype\\train.py",
+    "line": 8,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\08_research_prototype\\train.py",
+    "line": 9,
+    "transform_name": "RandAffined",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Random transform affects reproducibility. Set deterministic seed for audits and regulated experiments."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\08_research_prototype\\train.py",
+    "line": 10,
+    "transform_name": "RandGaussianNoised",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": [
+      "Random transform affects reproducibility. Set deterministic seed for audits and regulated experiments."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\09_clinical_candidate\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\09_clinical_candidate\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\09_clinical_candidate\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\09_clinical_candidate\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\09_clinical_candidate\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\10_bad_mask_values\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\10_bad_mask_values\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\10_bad_mask_values\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\10_bad_mask_values\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\10_bad_mask_values\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\11_nan_image\\train.py",
+    "line": 6,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\11_nan_image\\train.py",
+    "line": 7,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\11_nan_image\\train.py",
+    "line": 8,
+    "transform_name": "Orientationd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Orientation changes coordinate convention. Confirm image and label transforms are synchronized."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\11_nan_image\\train.py",
+    "line": 9,
+    "transform_name": "Spacingd",
+    "keys": [
+      "image",
+      "label"
+    ],
+    "risk_notes": [
+      "Spacing changes voxel geometry. Confirm spacing is logged and consistent with labels."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\monai_demo_projects\\11_nan_image\\train.py",
+    "line": 10,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\old_versions\\monai_security_audit.py",
+    "line": 267,
+    "transform_name": "LoadImaged",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": [
+      "Verify file paths are controlled and not user-supplied without validation."
+    ]
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\old_versions\\monai_security_audit.py",
+    "line": 268,
+    "transform_name": "EnsureChannelFirstd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  },
+  {
+    "file": "C:\\Users\\kozakka\\monai_test\\audit_cyber_monoai\\old_versions\\monai_security_audit.py",
+    "line": 269,
+    "transform_name": "ScaleIntensityd",
+    "keys": [
+      "image"
+    ],
+    "risk_notes": []
+  }
+]

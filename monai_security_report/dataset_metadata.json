@@ -1,0 +1,1177 @@
+[
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\brain_tumor_image.nii.gz",
+    "size_bytes": 2251285,
+    "sha256": "4c41b31cda1ab741dea23aad5492ca3960320ffad0f602ec216306d92b1b9197",
+    "extension": ".nii.gz",
+    "shape": [
+      128,
+      128,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.019999999552965164,
+    "max_value": 0.9133912920951843,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\brain_tumor_label.nii.gz",
+    "size_bytes": 10166,
+    "sha256": "0493c2e747edfa624c67e321dc84c6d4fe7933a83bcb2f96224638017cbe3ec6",
+    "extension": ".nii.gz",
+    "shape": [
+      128,
+      128,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\cbct_jaw_generator.py",
+    "size_bytes": 5614,
+    "sha256": "589b8fa58a8175e00a9215f149887973a1f77499f58624086ac6e3ae2dc77d2c",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\generate.py",
+    "size_bytes": 157,
+    "sha256": "77a7a75b3dddbc75b691959e209d01c9ba6de5fec1ddf5c835ab415de7c3f685",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\generate_brain_med.py",
+    "size_bytes": 8754,
+    "sha256": "c7e6cc8848d04dbf1f4e77946cfe51906220aec7552e721afef1ed4318d639c1",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\generate_med_based_on_example.py",
+    "size_bytes": 7710,
+    "sha256": "2881410318d6423cca7ed466204ec6724de5d625b0086531dedd5401782a41a4",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\generate_realistic_med.py",
+    "size_bytes": 4875,
+    "sha256": "610bda41f1dba5b892d3081a68b8fa3700cc4008c4fb1e4da185f930ad45ceba",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\image.nii.gz",
+    "size_bytes": 946682,
+    "sha256": "c1383f19bb88a6ca6c4a5b95dcb5e3bd3748be2fd853b88d21c9ec4a1609d5f4",
+    "extension": ".nii.gz",
+    "shape": [
+      64,
+      64,
+      64
+    ],
+    "dtype": "float32",
+    "min_value": 6.775854672014248e-06,
+    "max_value": 0.9999907612800598,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\image_realistic.nii.gz",
+    "size_bytes": 842266,
+    "sha256": "479ee86acf95f8d5f201c2745ad31c307d6e4254171f50c7e41604c5bd4042e9",
+    "extension": ".nii.gz",
+    "shape": [
+      96,
+      96,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\input1.nii.gz",
+    "size_bytes": 2251285,
+    "sha256": "4c41b31cda1ab741dea23aad5492ca3960320ffad0f602ec216306d92b1b9197",
+    "extension": ".nii.gz",
+    "shape": [
+      128,
+      128,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.019999999552965164,
+    "max_value": 0.9133912920951843,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\label.nii.gz",
+    "size_bytes": 1562,
+    "sha256": "1837ef1c797856c98d83ed90a3051739a74523fe04e008e7512f9a35afc6a7f9",
+    "extension": ".nii.gz",
+    "shape": [
+      64,
+      64,
+      64
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": [
+      0.0,
+      1.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\label_realistic.nii.gz",
+    "size_bytes": 5240,
+    "sha256": "52bf2da8f5708bfc8fccbab16fd522066a21c365f106f9cc02a56dc4ce825122",
+    "extension": ".nii.gz",
+    "shape": [
+      96,
+      96,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": [
+      0.0,
+      1.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\sample.nii.gz",
+    "size_bytes": 995021,
+    "sha256": "371b8f7534e0157af453adf42a7ae13737d22bf9c1290b40a596e218701534fe",
+    "extension": ".nii.gz",
+    "shape": [
+      64,
+      64,
+      32
+    ],
+    "dtype": "float32",
+    "min_value": 1.495707124377077e-06,
+    "max_value": 0.9999967813491821,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\Synthetic 3D Brain Tumor Volume Generator.docx",
+    "size_bytes": 25362,
+    "sha256": "b76ff8d148a213a2931adbf466d4b00a9d1fafb7e12c442442793e53ca829f58",
+    "extension": ".docx",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\Synthetic 3D Brain Tumor Volume Generator.pdf",
+    "size_bytes": 109360,
+    "sha256": "dc8e2d603a681abbb54aa4b21b5e44a2f3066fec5d8a8bb765c2ea0e0dff317c",
+    "extension": ".pdf",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\synthetic_3d_generator_gui.py",
+    "size_bytes": 25575,
+    "sha256": "dd95f1ac2f1390ce558ea897016fa81558d25c83241992cabcd33f21a0572a7c",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\synthetic_3d_generator_gui_cancer_types.py",
+    "size_bytes": 35024,
+    "sha256": "e027b9d40a7018cfa6ea1de29f7a9c5c11ea62818bf0b2abddd3d530f3617659",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\synthetic_3d_generator_gui_cancer_types_with_dicom.py",
+    "size_bytes": 42107,
+    "sha256": "3fa268fe4794120b8706d5366b2d84140bdedf70b60e1aa857f2a149e253cf4e",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\synthetic_3d_generator_gui_with_jpg.py",
+    "size_bytes": 31218,
+    "sha256": "c677b7ef112967b1866ef13052006ecbda22c9fd10230a46d5bff77c8b649cb6",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\synthetic_3d_generator_separate_brain_and_mask.py",
+    "size_bytes": 64840,
+    "sha256": "e828d05b823166a4b24fde6e59fee95b17228962036154a819b61e322bb59cd8",
+    "extension": ".py",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\todo.docx",
+    "size_bytes": 16173,
+    "sha256": "bb2fef45df639141bd48225e0c97f0fae1a5ad94004f47f02be2ba639ad0aa5a",
+    "extension": ".docx",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair.nii",
+    "size_bytes": 17858880,
+    "sha256": "1671dfab75fbaaede29989011cabcef12b7825c72a315f293441b698a8e8d39c",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 625.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_seg.nii",
+    "size_bytes": 8930976,
+    "sha256": "56f39a503ebc4df200a5b9872b1ace83d92fa775d55b6ce301f12d2f63507180",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 4.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_t1.nii",
+    "size_bytes": 17858880,
+    "sha256": "6440b711f433a7071379088fc61ad9e0ff01ae5f551a7e5f006135c5adcf0f83",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 678.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_t1ce.nii",
+    "size_bytes": 17858880,
+    "sha256": "ed3732f26987226748147562cc64e58958564a6a7e47611b726773fd4e057b99",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1845.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_t2.nii",
+    "size_bytes": 17858880,
+    "sha256": "0918a2aed1e8aac1a802bf899940f9032b0e61bae70b35c9fa93d35e7e27c569",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 376.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\synth_000.nii.gz",
+    "size_bytes": 22415873,
+    "sha256": "493d9a250801f1d7481e7afd7a9d7db2743c26c640f28474956ac34120738455",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\synth_000_lesion.nii.gz",
+    "size_bytes": 155954,
+    "sha256": "abf40ad199cc8848ced7d6659a792301403c875940ec12ea84fca0a6cec375ad",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 0.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\synth_001.nii.gz",
+    "size_bytes": 31801782,
+    "sha256": "3143d28fae9508f602d1a62f9ccdf7e0225e1420db5fbaef2a2c993bebe3414e",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\synth_001_lesion.nii.gz",
+    "size_bytes": 159036,
+    "sha256": "e33b7a8cc3dd12c5d8ccf5698a06702779c9061c8faa14c67e508490e4fead5e",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_astrocytoma_synthetic\\synth_000.nii.gz",
+    "size_bytes": 22415873,
+    "sha256": "493d9a250801f1d7481e7afd7a9d7db2743c26c640f28474956ac34120738455",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_astrocytoma_synthetic\\synth_000_lesion.nii.gz",
+    "size_bytes": 155954,
+    "sha256": "abf40ad199cc8848ced7d6659a792301403c875940ec12ea84fca0a6cec375ad",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 0.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_astrocytoma_synthetic\\synth_001.nii.gz",
+    "size_bytes": 31802525,
+    "sha256": "dd87b1afb06cb1958281c606f9a26844081f5765ac8860556564bbf2931f21e1",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_astrocytoma_synthetic\\synth_001_lesion.nii.gz",
+    "size_bytes": 163914,
+    "sha256": "ff5aef81d31f04e3ea8efa522892b58d846924e997775ba997045268e9dfe9e3",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\brain_volumes\\brain_000.nii.gz",
+    "size_bytes": 22415873,
+    "sha256": "493d9a250801f1d7481e7afd7a9d7db2743c26c640f28474956ac34120738455",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\brain_volumes\\brain_001.nii.gz",
+    "size_bytes": 31803230,
+    "sha256": "56c589af6cfcb4886573770bca4d1086659da80409cd649dd85ba02896df59d2",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\brain_volumes\\brain_002.nii.gz",
+    "size_bytes": 22411855,
+    "sha256": "2c6aae22461532e89e9ab40780c6d1a3b3d0b2f191bfc0d6e66d849963649669",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\brain_volumes\\brain_003.nii.gz",
+    "size_bytes": 31007214,
+    "sha256": "fdf212f9d9aa207fc206dfbc042a853b35cb0e8eda143306c2e59eb9a516425c",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\brain_volumes\\brain_004.nii.gz",
+    "size_bytes": 6065392,
+    "sha256": "a39527ce46a123b3f612de1edf95b0ecd44a8ebeaf32ba74dc068b180d791ed2",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\brain_volumes\\brain_005.nii.gz",
+    "size_bytes": 22299500,
+    "sha256": "4b2b03a93d72cf5a490a415597e009cdda026ba8251b54accbfd009cdb2df4f3",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\brain_volumes\\brain_006.nii.gz",
+    "size_bytes": 6585967,
+    "sha256": "7d1d76a204607626c31235e5ed6aacea981607b415661642cd441df1184a2328",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\brain_volumes\\brain_007.nii.gz",
+    "size_bytes": 30630589,
+    "sha256": "9c9a91bb33c246b0e21abc6270b75dfd2216510dcf533f4337195f70af7f090c",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\combined_cases\\synth_000.nii.gz",
+    "size_bytes": 22415873,
+    "sha256": "493d9a250801f1d7481e7afd7a9d7db2743c26c640f28474956ac34120738455",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\combined_cases\\synth_001.nii.gz",
+    "size_bytes": 31798752,
+    "sha256": "d0b104e858d1f0d32ce94b2c6b77c01515e862af050e1c3aa966b65fe4b2d2dd",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\combined_cases\\synth_002.nii.gz",
+    "size_bytes": 22411855,
+    "sha256": "2c6aae22461532e89e9ab40780c6d1a3b3d0b2f191bfc0d6e66d849963649669",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\combined_cases\\synth_003.nii.gz",
+    "size_bytes": 30989175,
+    "sha256": "dd8e58aa1c45d3d793ec75e4733050f6e7ef3e2ff385371fb4101f23c21e0ebf",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\combined_cases\\synth_004.nii.gz",
+    "size_bytes": 6065392,
+    "sha256": "a39527ce46a123b3f612de1edf95b0ecd44a8ebeaf32ba74dc068b180d791ed2",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\combined_cases\\synth_005.nii.gz",
+    "size_bytes": 22278230,
+    "sha256": "fda55ae9eabd18f2cb915d706ca60b6b02c7fe48970096800d473168c99d14b1",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\combined_cases\\synth_006.nii.gz",
+    "size_bytes": 6585967,
+    "sha256": "7d1d76a204607626c31235e5ed6aacea981607b415661642cd441df1184a2328",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\combined_cases\\synth_007.nii.gz",
+    "size_bytes": 30602666,
+    "sha256": "e119b969c8afbaa4f6e329952f2d6c82539b44fa9d6cba3ad5c31a0f68fff469",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\tumor_masks\\mask_000.nii.gz",
+    "size_bytes": 155954,
+    "sha256": "abf40ad199cc8848ced7d6659a792301403c875940ec12ea84fca0a6cec375ad",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 0.0,
+    "unique_values": [
+      0.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\tumor_masks\\mask_001.nii.gz",
+    "size_bytes": 164549,
+    "sha256": "fc3be4bf942ba81f63c942af68713e0f9366a85685f245a1171cb15057452358",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\tumor_masks\\mask_002.nii.gz",
+    "size_bytes": 155954,
+    "sha256": "abf40ad199cc8848ced7d6659a792301403c875940ec12ea84fca0a6cec375ad",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 0.0,
+    "unique_values": [
+      0.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\tumor_masks\\mask_003.nii.gz",
+    "size_bytes": 168669,
+    "sha256": "09319a8deed8241cd9e3e42758b4d984665f8e597e0e82539ff5d4a1e6459de5",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\tumor_masks\\mask_004.nii.gz",
+    "size_bytes": 155954,
+    "sha256": "abf40ad199cc8848ced7d6659a792301403c875940ec12ea84fca0a6cec375ad",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 0.0,
+    "unique_values": [
+      0.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\tumor_masks\\mask_005.nii.gz",
+    "size_bytes": 173605,
+    "sha256": "5ac3f1975dbd282d545ceb4ebdc210b6d4fa9fb06eeee07fa75d0d4283844297",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\tumor_masks\\mask_006.nii.gz",
+    "size_bytes": 155954,
+    "sha256": "abf40ad199cc8848ced7d6659a792301403c875940ec12ea84fca0a6cec375ad",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 0.0,
+    "unique_values": [
+      0.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_brain_glioblastoma_synthetic\\tumor_masks\\mask_007.nii.gz",
+    "size_bytes": 171909,
+    "sha256": "68bce17a0809a352eaf0783ea93a6477325050710ee3c5b642a4e10c75cde99f",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_lung_spiculated_lesion_synthetic\\synth_000.nii.gz",
+    "size_bytes": 22415873,
+    "sha256": "493d9a250801f1d7481e7afd7a9d7db2743c26c640f28474956ac34120738455",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_lung_spiculated_lesion_synthetic\\synth_000_lesion.nii.gz",
+    "size_bytes": 155954,
+    "sha256": "abf40ad199cc8848ced7d6659a792301403c875940ec12ea84fca0a6cec375ad",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 0.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_lung_spiculated_lesion_synthetic\\synth_001.nii.gz",
+    "size_bytes": 31803853,
+    "sha256": "878db584e31fec3698c7a2e63f9356b03e5977568cd6311570c7a154583c021b",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_001\\BraTS20_Training_001_flair_synthetic\\BraTS20_Training_001_flair_lung_spiculated_lesion_synthetic\\synth_001_lesion.nii.gz",
+    "size_bytes": 158213,
+    "sha256": "072ddc04454b573e1421c0d15ec668ca1211eecfc3763d91b8946c8da16e8912",
+    "extension": ".nii.gz",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_002\\BraTS20_Training_002_flair.nii",
+    "size_bytes": 17858896,
+    "sha256": "f51b5715db978afb246dc00b9e2950bcdb7a48ff0933f0a1b8f4ebd0d08c8613",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1091.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_002\\BraTS20_Training_002_seg.nii",
+    "size_bytes": 8930976,
+    "sha256": "5e5476e303ce247b623ea9fb25fc08833831560c71bc9bc5b93e637f0482fdb5",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 4.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_002\\BraTS20_Training_002_t1.nii",
+    "size_bytes": 17858880,
+    "sha256": "e0cc02bda2df29e8100459fe730b9cd5bf3350ce5d79a53ea17c39d8b9378c50",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 757.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_002\\BraTS20_Training_002_t1ce.nii",
+    "size_bytes": 17858880,
+    "sha256": "cd9402472cbc67d9c0f65102fc198c23649c509deceb418fc2c69cbd91ddbd78",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1633.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\BraTS20_Training_002\\BraTS20_Training_002_t2.nii",
+    "size_bytes": 17858880,
+    "sha256": "741f3823e914e21efeff9d1795e84bef7ee3acf701d50f758b32e658ab094cda",
+    "extension": ".nii",
+    "shape": [
+      240,
+      240,
+      155
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 690.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\data\\brain_tumor_image.nii.gz",
+    "size_bytes": 2251285,
+    "sha256": "4c41b31cda1ab741dea23aad5492ca3960320ffad0f602ec216306d92b1b9197",
+    "extension": ".nii.gz",
+    "shape": [
+      128,
+      128,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.019999999552965164,
+    "max_value": 0.9133912920951843,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\data\\brain_tumor_label.nii.gz",
+    "size_bytes": 10166,
+    "sha256": "0493c2e747edfa624c67e321dc84c6d4fe7933a83bcb2f96224638017cbe3ec6",
+    "extension": ".nii.gz",
+    "shape": [
+      128,
+      128,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "unique_values": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\data\\image_realistic.nii.gz",
+    "size_bytes": 842266,
+    "sha256": "479ee86acf95f8d5f201c2745ad31c307d6e4254171f50c7e41604c5bd4042e9",
+    "extension": ".nii.gz",
+    "shape": [
+      96,
+      96,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": null,
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\data\\label_realistic.nii.gz",
+    "size_bytes": 5240,
+    "sha256": "52bf2da8f5708bfc8fccbab16fd522066a21c365f106f9cc02a56dc4ce825122",
+    "extension": ".nii.gz",
+    "shape": [
+      96,
+      96,
+      96
+    ],
+    "dtype": "float32",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unique_values": [
+      0.0,
+      1.0
+    ],
+    "affine_det": 1.0
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\dicom\\converted_from_dicom.nii.gz",
+    "size_bytes": 375332,
+    "sha256": "571b49e3380527056c7eb13de4ae3c734d7fb98fca3eb18f40be27b676b27968",
+    "extension": ".nii.gz",
+    "shape": [
+      512,
+      512,
+      1
+    ],
+    "dtype": "float32",
+    "min_value": -1057.0,
+    "max_value": 1440.0,
+    "unique_values": null,
+    "affine_det": 2.1972656250000004
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\dicom\\CT-MONO2-16-brain.dcm",
+    "size_bytes": 525968,
+    "sha256": "0a2c2a3f5dde073597739a95ac88ad839d78dc847a4759fd50c4f8cbc2982cb8",
+    "extension": ".dcm",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  },
+  {
+    "path": "C:\\Users\\kozakka\\monai_test\\data\\dicom\\dental\\ImplaStation-DEMO-DICOM.dcm",
+    "size_bytes": 305006876,
+    "sha256": "6bee7b87a88e7c9e97d8f70ef0098abb42f6b9ec0b3794e3a825b8e9d510ec1e",
+    "extension": ".dcm",
+    "shape": null,
+    "dtype": null,
+    "min_value": null,
+    "max_value": null,
+    "unique_values": null,
+    "affine_det": null
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "name": "glioma",
+  "task": "segmentation",
+  "intended_use": "research"
+}

@@ -1,0 +1,14 @@
+MONAI Cybersecurity Summary
+====================
+
+Project root: C:\Users\kozakka\monai_test\audit_cyber_monoai
+Dataset root: None
+Model path: C:\Users\kozakka\monai_test\audit_cyber_monoai\monai_demo_projects\09_clinical_candidate\models
+
+Dependencies: 7
+Model files: 1
+Dataset files: 0
+MONAI transforms: 61
+Issues: 36
+
+INFO: 36

@@ -1,0 +1,12 @@
+{
+  "score": 15,
+  "status": "Not ready",
+  "recommended_action": "Do not use for clinical workflows. Complete remediation and rerun audit.",
+  "main_issues": [
+    "Model file does not exist.",
+    "Missing dataset provenance",
+    "Preprocessing pipeline needs reproducibility review",
+    "Preprocessing pipeline needs reproducibility review",
+    "Preprocessing pipeline needs reproducibility review"
+  ]
+}

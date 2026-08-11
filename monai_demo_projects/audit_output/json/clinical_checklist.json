@@ -1,0 +1,44 @@
+[
+  {
+    "area": "Model identity",
+    "item": "Model artifact hash available",
+    "status": "WARNING",
+    "evidence": "0 model file(s) scanned.",
+    "recommendation": "Provide verified model artifacts and preserve SHA256 hashes."
+  },
+  {
+    "area": "Dataset provenance",
+    "item": "Dataset folder available and scanned",
+    "status": "WARNING",
+    "evidence": "0 dataset file(s) scanned.",
+    "recommendation": "Provide dataset root and provenance documentation."
+  },
+  {
+    "area": "Dataset integrity",
+    "item": "No critical dataset errors",
+    "status": "FAIL",
+    "evidence": "1 critical dataset issue(s).",
+    "recommendation": "Fix corrupted files, NaN/Inf values, and image-mask mismatches."
+  },
+  {
+    "area": "MONAI Bundle",
+    "item": "Bundle metadata and documentation available",
+    "status": "PASS",
+    "evidence": "Bundle found: True",
+    "recommendation": "Use MONAI Bundle-style metadata, configs, documentation, and model artifacts."
+  },
+  {
+    "area": "Pipeline reproducibility",
+    "item": "MONAI transforms detected and reviewed",
+    "status": "PASS",
+    "evidence": "55 transform(s) detected.",
+    "recommendation": "Document preprocessing, spacing, orientation, normalization, and random seeds."
+  },
+  {
+    "area": "Model loading safety",
+    "item": "No pickle-based model risk flagged",
+    "status": "PASS",
+    "evidence": "0 pickle-format warning(s).",
+    "recommendation": "Avoid untrusted PyTorch pickle checkpoints; prefer verified artifacts."
+  }
+]

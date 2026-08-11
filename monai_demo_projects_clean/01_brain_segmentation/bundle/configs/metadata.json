@@ -1,0 +1,5 @@
+{
+  "name": "brain_segmentation",
+  "task": "segmentation",
+  "intended_use": "research"
+}

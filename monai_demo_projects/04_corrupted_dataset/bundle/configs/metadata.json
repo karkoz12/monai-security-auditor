@@ -1,0 +1,9 @@
+{
+  "name": "04_corrupted_dataset",
+  "description": "Synthetic demo MONAI Bundle for MonoAI audit.",
+  "intended_use": "Research validation only.",
+  "modality": "MRI",
+  "task": "Brain tumor segmentation",
+  "training_data": "Synthetic demo data. Not clinical data.",
+  "limitations": "Not for diagnosis."
+}

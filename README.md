@@ -129,8 +129,8 @@ If no expert reference file is provided, these metrics should be reported as **n
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/karkoz1/audit_cyber_monoai.git
-cd audit_cyber_monoai
+git clone https://github.com/karkoz12/monai-security-auditor.git
+cd monai-security-auditor
 ```
 
 ### 2. Create an environment
@@ -268,73 +268,33 @@ External scanner findings should be normalized to a common representation before
 
 ## Repository Structure
 
-Recommended repository layout:
+Current repository layout:
 
 ```text
-audit_cyber_monoai/
+monai-security-auditor/
 |
 +-- README.md
 +-- LICENSE
-+-- SECURITY.md
-+-- CONTRIBUTING.md
-+-- CITATION.cff
-+-- CHANGELOG.md
-+-- requirements.txt
-+-- pyproject.toml
-|
++-- generate_monai_security_docs.py
++-- monai_dataset_security.py
 +-- monai_security.py
 +-- monai_security_gui.py
-+-- monai_security_mapram.py
 |
 +-- assets/
-|   +-- logo.png
-|   +-- mapram_framework.png
-|   +-- gui.png
-|   +-- report_example.png
-|
-+-- docs/
-|   +-- index.md
-|   +-- installation.md
-|   +-- usage.md
-|   +-- methodology.md
-|   +-- experiments.md
-|   +-- mkdocs.yml
-|
-+-- examples/
-|   +-- pass_project/
-|   |   +-- README.md
-|   |   +-- data/
-|   |   +-- models/
-|   |   +-- configs/
-|   |
-|   +-- fail_project/
-|       +-- README.md
-|       +-- data/
-|       +-- models/
-|       +-- configs/
-|
-+-- tests/
-|   +-- test_cli.py
-|   +-- test_dependency_scanner.py
-|   +-- test_model_scanner.py
-|   +-- test_dataset_scanner.py
-|   +-- test_transform_scanner.py
-|   +-- test_reports.py
-|
-+-- .github/
-    +-- workflows/
-        +-- tests.yml
-        +-- build-reports.yml
++-- MONAI_Security_Documentation/
++-- monai_demo_projects/
++-- monai_demo_projects_clean/
++-- monai_security_report/
 ```
 
 ---
 
 ## Documentation
 
-Full documentation should live in:
+Project documentation is currently stored in:
 
 ```text
-docs/
+MONAI_Security_Documentation/
 ```
 
 Recommended pages:
@@ -374,7 +334,7 @@ The repository should contain two minimal demonstrator projects.
 ### PASS example
 
 ```text
-examples/pass_project/
+monai_demo_projects_clean/
 ```
 
 Purpose:
@@ -386,7 +346,7 @@ Purpose:
 ### FAIL example
 
 ```text
-examples/fail_project/
+monai_demo_projects/
 ```
 
 Purpose:
@@ -441,7 +401,7 @@ Example BibTeX:
   title   = {MONAI Security Auditor},
   year    = {2026},
   version = {0.1.0},
-  url     = {https://github.com/karkoz1/audit_cyber_monoai}
+  url     = {https://github.com/karkoz12/monai-security-auditor}
 }
 ```
 

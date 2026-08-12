@@ -214,7 +214,7 @@ The GUI supports:
 - direct access to HTML, Markdown, and PDF reports.
 
 <p align="center">
-  <img src="assets/gui.png" alt="MONAI Security Auditor GUI" width="88%">
+  <img src="assets/gui.png" alt="MONAI Security Auditor GUI" width="50%">
 </p>
 
 ---

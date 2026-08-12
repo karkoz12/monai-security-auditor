@@ -222,7 +222,7 @@ The GUI supports:
 ## Example Report
 
 <p align="center">
-  <img src="assets/report_example.png" alt="Example MONAI Security Auditor report" width="88%">
+  <img src="assets/report_example.png" alt="Example MONAI Security Auditor report" width="50%">
 </p>
 
 Typical report outputs include:
